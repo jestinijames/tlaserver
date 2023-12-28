@@ -1,0 +1,36 @@
+{
+  "name": "tlaserver",
+  "private": true,
+  "version": "0.1.0",
+  "description": "TLA Server",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.16.2",
+    "@strapi/plugin-i18n": "4.16.2",
+    "@strapi/plugin-seo": "^1.9.8",
+    "@strapi/plugin-users-permissions": "4.16.2",
+    "@strapi/strapi": "4.16.2",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "strapi-plugin-populate-deep": "^3.0.1",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "Jestin James"
+  },
+  "strapi": {
+    "uuid": "57f4f99f-5b50-4e32-b2d2-b7945bafee1b"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
